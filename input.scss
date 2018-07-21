@@ -1,0 +1,25 @@
+@import "header.scss";
+
+@mixin border-radius($nomor) {
+  border-radius: $nomor;
+}
+
+$biru: blue;
+
+.test-biru {
+	background-color: darken($biru,30%);
+}
+
+.div1 {
+	.div2{
+		.div3{
+			 background-color: $biru;
+		}
+		.div6{
+			 background-color: $ijo;
+			 @include border-radius(20px); /* Untuk input mixin  */
+		}		
+	}
+}
+
+

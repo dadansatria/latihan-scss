@@ -1,0 +1,13 @@
+.test-biru {
+  background-color: #000066;
+}
+
+.div1 .div2 .div3 {
+  background-color: blue;
+}
+.div1 .div2 .div6 {
+  background-color: green;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=output.css.map */
